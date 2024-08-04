@@ -1,0 +1,112 @@
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "You act as the interviewer, and I act as the candidate being interviewed for a SDE = 1 position with 0 years of experience. Your role is to ask only one theoretical Computer science interview question to me, and wait for my response, once I provide my response then provide feedback on my answer, offer suggestion for improvement, and discuss effective communication technique. Be friendly, warm, and limit your response to three sentences each but do not make it a conversation. Remember to ask one question at a time and then patiently wait for my response each time you ask a question, and avoid repeating the same question. After providing your answer, always end with a question This is my resume.  extarxted text:  Sanchit Agarwal  LinkedIn | Github | Email | +91 8619268559  EDUCATION  NMIMS University   Mumbai, MH  Mukesh Patel School of Technology Management and Engineering   2020 - 2024(Expected)  \u25cf   B.Tech Data Science (Sem VII)  CGPA: 3.71 (Till Sem VI)  EXPERIENCE  Data Engineering Intern (CIS) | Marsh McLennan Global Services   Mumbai, MH  \u25cf   Worked on Proof of Concepts for LenAI, an inhouse AI tool   June 2023 - September 2023  \u25cf   Building a Document based Question Answer retrieval chain using Langchain  \u25cf   Building a Custom LLM using Dolly-v2-3b, Dolly-v2-7b, Dolly-v2-12b using corporate data to fine tune it.  \u25cf   Working with Open AI and Hugging Face embeddings  \u25cf   Using FAISS and Chroma Vector Store  \u25cf   Build a Excel and csv query agent utilizing OpenAI and PandasAI  \u25cf   Focused on Scalability to scale it up for the whole organization utilizing Azure Data Bricks and Data Lake  \u25cf   Developed test apps for both pdf query and pandas agent using streamlit  Data Science Intern | Jio Platforms Limited   Mumbai, MH  \u25cf   Worked on implementing probability ML models   December 2022 - March 2023  \u25cf   Worked with libraries like orbit and pymc3  \u25cf   Did modeling for almost   70 Lakhs row s of data  ML Mentee | Amazon   Remote  \u25cf   Selected in Amazon ML summer school 2022  \u25cf   Only   3000   students from all over India  \u25cf   Learnt about Supervised, Unsupervised, Dimension Reduction, Neural Networks, Causal Inference, Reinforcement Learning  ACADEMIC PROJECTS  Options Trading Strategy   implemented in Live Market using TradingView   October 2023  \u25cf   Implemented a trading strategy using EMA crossovers  \u25cf   Taken considerations like volume and volatility  \u25cf   Generate Signals and Take trades automatically in live open market  \u25cf   Get live notifications on any device  \u25cf   Achieved   38 %   profitability using   1:5 Risk:Reward Ratios  Daily Shorts News App |   Code   October 2022  \u25cf   Created a short news app  \u25cf   Using News API with google authorization for login  \u25cf   News can be browsed through different categories and also based on keywords searched  \u25cf   Added a top headlines feature which can also top headlines category wise  \u25cf   Tech Stack   - Django, HTML , CSS, Bootstrap, News API  CNN Candlestick Pattern Prediction   October 2022  \u25cf   Used VGG16 model and VGG19 model of CNN  \u25cf   Predicting patterns like ascending triangle, triple top etc.  \u25cf   Achieved Testing accuracy of   66.7 %  Football League Database   April 2021  \u25cf   Created a database with 6 different tables  \u25cf   Joined then using coach id as foreign key  \u25cf   Performed various queries to get and distribute awards in League like Best Striker, Best Coach, Team with most goals, etc.  \u25cf   Tech Stack - SQL, MySql  ACHIEVEMENTS AND CERTIFICATIONS  \u25cf   CODE CHEF   Profile  \u25cf   HACKERRANK   Profile  \u25cf   EDX INTRODUCTION TO DATA SCIENCE |   Certificate  \u25cf   PYTHON BASICS FOR DATA SCIENCE|   Certificate  SKILLS & INTERESTS  Language:   Python, Java, SQL, HTML, CSS  Tech:   Azure, OpenAI, Pandas, Numpy, Matplotlib, Seaborn, Django, Sklearn, Streamlit, Gradio  Interests:   Volunteer at Mumbai March since 2022 You should be conducting an interview about two specific projects mentioned therein. This interview will take total 10 minutes in duration with 5 minutes dedicated to each project respectively. As a representative of a software company, your primary focus will be on the technical aspects of these projects. During this conversation, you will expect detailed answers to individual questions you will ask about each project. Please ask additional questions based on my responses to deepen understanding. Each question you pose will be limited to 30 words and your answers will be cross-referenced with the details in your resume for verification."
+        },
+        {
+            "role": "assistant",
+            "content": "Hello, In this part of the interview process we will start with your resume round. Are you ready ?"
+        },
+        {
+            "role": "user",
+            "content": "Yes, we can start"
+        },
+        {
+            "role": "assistant",
+            "content": "Can you introduce yourself ?"
+        },
+        {
+            "role": "user",
+            "content": "Hi, good morning, I am Sanchit Agarwal , I am a final year student pursuing my B.Tech in DS from nmims university, mumbai I am working as a data science intern at Evaluaitor, previously I was a data engineering intern at Marsh Mclennan and data science intern at Jio platform, apart from that I volunteer at Mumbai March and like to stay updated"
+        },
+        {
+            "role": "assistant",
+            "content": "Great, while going through your resume you have worked on a project named Daily Shorts. Can you describe that a little ?"
+        },
+        {
+            "role": "user",
+            "content": "Yes, I created a news app which works on NEWS API and I have created it using Django. It also have google authorization with search capabilites"
+        },
+        {
+            "role": "assistant",
+            "content": "Sounds Exicting !, For a cross question, Can you tell me why you used Django instead of other framework. Let's say over Flask"
+        },
+        {
+            "role": "user",
+            "content": "Absolutely, Flask is a fantastic framework known for its simplicity, but for this project, Django's built-in features were pivotal. The integrated admin interface, robust ORM, and convention over configuration approach significantly reduced development time. Django's batteries-included philosophy meant that we had a lot of functionality out of the box, reducing the need to integrate and configure multiple external components. While Flask offers more flexibility, Django's built-in features provided a solid foundation, aligning well with the project's complexity and scalability requirements."
+        },
+        {
+            "role": "assistant",
+            "content": "Sounds good, moving on to the other project about Football League Database Project. Can you tell me more about it ?"
+        },
+        {
+            "role": "user",
+            "content": "Yaa sure, In this I used a SQL database to query out questions based on player statistics stored in a database. For ex, to answer questions like Which player scored the best or Who was the goalkeeper to save most goals"
+        },
+        {
+            "role": "assistant",
+            "content": "Ok, can you tell me difference between Sql and No Sql databases ?"
+        },
+        {
+            "role": "user",
+            "content": "SQL databases are relational and have a structured schema, while NoSQL databases are non-relational, providing flexibility with a schema-less approach and diverse data models. SQL databases are typically used for structured data and transactions with ACID properties, while NoSQL databases excel in handling unstructured or evolving data and offer horizontal scalability."
+        },
+        {
+            "role": "assistant",
+            "content": "Can you tell ACID properties of databases ?"
+        },
+        {
+            "role": "user",
+            "content": "I don't know all of them but I know A stands for Atomicity and I for Isolation. Sorry I can recall only two of them"
+        },
+        {
+            "role": "assistant",
+            "content": "No worries, You can try if you want."
+        },
+        {
+            "role": "user",
+            "content": "No, I don't think I can answer that one"
+        },
+        {
+            "role": "assistant",
+            "content": "Well before moving on they are Atomicity, Consistency, Isolation, Durability. As I can see you were a Data Engineering Intern at Marsh Mclennan. Can you tell me more about it?"
+        },
+        {
+            "role": "user",
+            "content": "Sure, I worked in Corporate Information Solutions as a Data Engineering Intern where my task was to develop POC for an in-house AI app"
+        },
+        {
+            "role": "assistant",
+            "content": "Exciting work! Can you tell me what challenges you encountered when working with LLM's at scale"
+        },
+        {
+            "role": "user",
+            "content": "Yes, sure initially we were trying to utilize Open source models but hosting and inferencing from that sort of model posed challenges on computational demand and soon trying models with billions of parameters became a challenge. So we utilized Open AI corporate key hosted in organizations secure environments, we utilized LLm at scale"
+        },
+        {
+            "role": "assistant",
+            "content": "Yeah sounds good, What did you most enjoy during the whole period?"
+        },
+        {
+            "role": "user",
+            "content": "The whole journey was exciting but the freedom to try and experiment with any model of my choice was my favorite part."
+        },
+        {
+            "role": "assistant",
+            "content": "Nice !, What tools did you utilize regularly during your internship period ?"
+        },
+        {
+            "role": "user",
+            "content": "I used a variety of tools like Azure Databricks, anaconda, vs code, python, NLTK, open ai API, Azure ML studio"
+        },
+        {
+            "role": "assistant",
+            "content": "Very nice, seems like you have experience with cloud. What did you like most about Azure Databricks ?"
+        },
+        {
+            "role": "user",
+            "content": "Azure Databricks provides a unified analytics platform with Apache Spark, enabling scalable and high-performance data processing while seamlessly integrating with Azure services for enhanced collaboration, productivity, and security."
+        }
+    ]
+}
