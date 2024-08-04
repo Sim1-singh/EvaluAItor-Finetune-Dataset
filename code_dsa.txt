@@ -1,0 +1,81 @@
+#include <iostream>
+
+#include <unordered_set>
+
+#include <vector>
+
+
+
+std::vector<int>
+
+findCommonElements(const std::vector<int>& ar1,
+
+                   const std::vector<int>& ar2,
+
+                   const std::vector<int>& ar3)
+
+{
+
+    std::unordered_set<int> set1(ar1.begin(), ar1.end());
+
+    std::unordered_set<int> set2(ar2.begin(), ar2.end());
+
+    std::unordered_set<int> set3(ar3.begin(), ar3.end());
+
+
+
+    std::vector<int> finalList;
+
+
+
+    for (int num : set1) {
+
+        if (set2.count(num) && set3.count(num)) {
+
+            finalList.push_back(num);
+
+        }
+
+    }
+
+
+
+    return finalList;
+
+}
+
+
+
+int main()
+
+{
+
+    std::vector<int> ar1 = { 1, 5, 10, 20, 40, 80 };
+
+    std::vector<int> ar2 = { 6, 7, 20, 80, 100 };
+
+    std::vector<int> ar3
+
+        = { 3, 4, 15, 20, 30, 70, 80, 120 };
+
+
+
+    std::vector<int> finalList
+
+        = findCommonElements(ar1, ar2, ar3);
+
+
+
+    for (int num : finalList) {
+
+        std::cout << num << " ";
+
+    }
+
+    std::cout << std::endl;
+
+
+
+    return 0;
+
+}
