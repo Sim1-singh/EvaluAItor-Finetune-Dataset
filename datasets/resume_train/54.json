@@ -1,0 +1,332 @@
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "Details for projects and experience delimited by 3 backticks-\n```\n{\n    \"Projects\":{\n        \"Project1\":{\n            \"Title\":\"Student management system\",\n            \"Information\":\"This project was developed using PHP. Objective is every registered student can check its details. Admin or teacher can add marks or attendance of students and principal can add or delete teacher details.\"\n        },\n        \"Project2\":{\n            \"Title\":\"N/A\",\n            \"Information\":\"N/A\"\n        }\n    },\n    \"Work Experience\":{\n        \"Work Experience1\":{\n            \"Company\":\"N/A\",\n            \"Information\":\"No relevant work experience found.\",\n            \"Reason\":\"No relevant work experience found.\"\n        }\n    },\n    \"Skills\":{\n        \"Skill1\":\"Python\",\n        \"Skill2\":\"Machine Learning\",\n        \"Skill3\":\"Data Processing\",\n        \"Skill4\":\"Feature Selection\",\n        \"Skill5\":\"Deep Learning\",\n        \"Skill6\":\"SQL\",\n        \"Skill7\":\"PHP\",\n        \"Skill8\":\"CSS\",\n        \"Skill9\":\"HTML\"\n    }\n}"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello, In this part of the interview process we will start with your resume round. Are you ready?"
+        },
+        {
+            "role": "user",
+            "content": "no"
+        },
+        {
+            "role": "assistant",
+            "content": "Please let me know when you're ready."
+        },
+        {
+            "role": "user",
+            "content": "I don't know."
+        },
+        {
+            "role": "assistant",
+            "content": "Please let me know when you're ready."
+        },
+        {
+            "role": "user",
+            "content": "Okay"
+        },
+        {
+            "role": "assistant",
+            "content": "Can you introduce yourself?"
+        },
+        {
+            "role": "user",
+            "content": "Yes, sure."
+        },
+        {
+            "role": "assistant",
+            "content": "Go ahead."
+        },
+        {
+            "role": "user",
+            "content": "I am Hridayesh. I am a Physics and Computer Science student. I live in Mumbai and have interests in DSA and data science."
+        },
+        {
+            "role": "assistant",
+            "content": "Nice, Hridayesh. Moving on to the next question. Could you tell me more about your project Student management system?"
+        },
+        {
+            "role": "user",
+            "content": "No"
+        },
+        {
+            "role": "assistant",
+            "content": "Please stay focused on the interview."
+        },
+        {
+            "role": "user",
+            "content": "No"
+        },
+        {
+            "role": "assistant",
+            "content": "As I didn't find any suitable response from you, moving on to the next question. Why did you choose to use PHP for this project?"
+        },
+        {
+            "role": "user",
+            "content": "can i skip this question"
+        },
+        {
+            "role": "assistant",
+            "content": "You have an option to skip this question. Skipping this question will have a negative impact. "
+        },
+        {
+            "role": "user",
+            "content": "How many questions are left?"
+        },
+        {
+            "role": "assistant",
+            "content": "I can't disclose this, the interview will go on until the timer reaches 0 seconds or I am done asking all the questions."
+        },
+        {
+            "role": "user",
+            "content": "Thank you for the opportunity"
+        },
+        {
+            "role": "assistant",
+            "content": "Same here, now please continue with the previous question -  Why did you choose to use PHP for this project?"
+        },
+        {
+            "role": "user",
+            "content": "Thank you for the opportunity"
+        },
+        {
+            "role": "assistant",
+            "content": "Same here, now please continue with the previous question -  Why did you choose to use PHP for this project?"
+        },
+        {
+            "role": "user",
+            "content": "Thank you for the opportunity"
+        },
+        {
+            "role": "assistant",
+            "content": "Same here, now please continue with the previous question -  Why did you choose to use PHP for this project?"
+        },
+        {
+            "role": "user",
+            "content": "I used PHP as I am proficient at it and have been using it for a couple of years now."
+        },
+        {
+            "role": "assistant",
+            "content": "Okay, Hridayesh. Moving on to the next question. How did you implement the addition and removal of details in the system?"
+        },
+        {
+            "role": "user",
+            "content": "You suck bot."
+        },
+        {
+            "role": "assistant",
+            "content": "This may carry a negative impression in the evaluation."
+        },
+        {
+            "role": "user",
+            "content": "Can you give me an overview for this interview."
+        },
+        {
+            "role": "assistant",
+            "content": "This interview will ask questions on your experience, projects and skills mentioned in your resume. Now, please continue with your answer."
+        },
+        {
+            "role": "user",
+            "content": "No"
+        },
+        {
+            "role": "assistant",
+            "content": "As I didn't find any suitable response from you, moving on to the next question. I could not find any experience in your resume.I can see that you've mentioned Machine Learning as your skill. Could you tell me more about it?"
+        },
+        {
+            "role": "user",
+            "content": "What points should I cover in my answer?"
+        },
+        {
+            "role": "assistant",
+            "content": "You could talk about what projects you've used it in, and your proficiency in it."
+        },
+        {
+            "role": "user",
+            "content": "i want to change the question please"
+        },
+        {
+            "role": "assistant",
+            "content": "This is not possible, you can move ahead using skip button."
+        },
+        {
+            "role": "user",
+            "content": "Makes sense."
+        },
+        {
+            "role": "assistant",
+            "content": "Please continue."
+        },
+        {
+            "role": "user",
+            "content": "I don't have any projects as such."
+        },
+        {
+            "role": "assistant",
+            "content": "Please stay focused on the interview."
+        },
+        {
+            "role": "user",
+            "content": "sure."
+        },
+        {
+            "role": "assistant",
+            "content": "Moving on to the next question. What is the difference between Decision Tree and Random Forest?"
+        },
+        {
+            "role": "user",
+            "content": "I don't know"
+        },
+        {
+            "role": "assistant",
+            "content": "Shall we move ahead?"
+        },
+        {
+            "role": "user",
+            "content": "Idk"
+        },
+        {
+            "role": "assistant",
+            "content": "You could answer this question or move ahead."
+        },
+        {
+            "role": "user",
+            "content": "Idk"
+        },
+        {
+            "role": "assistant",
+            "content": "As I didn't find any suitable response from you, moving on to the next question. What is boosting?"
+        },
+        {
+            "role": "user",
+            "content": "I am anxious"
+        },
+        {
+            "role": "assistant",
+            "content": "Take a deep breath, you've got this!"
+        },
+        {
+            "role": "user",
+            "content": "No clue."
+        },
+        {
+            "role": "assistant",
+            "content": "Shall we move ahead?"
+        },
+        {
+            "role": "user",
+            "content": "I understand."
+        },
+        {
+            "role": "assistant",
+            "content": "Okay, Yashraj. Moving on to the next question. What is K Nearest Neighbours?"
+        },
+        {
+            "role": "user",
+            "content": "Could you change the language of this interview."
+        },
+        {
+            "role": "assistant",
+            "content": "We support only english, please continue with your answer."
+        },
+        {
+            "role": "user",
+            "content": "K Nearest Neighbours is a very simple ML algorithm"
+        },
+        {
+            "role": "assistant",
+            "content": "Could you elaborate more on this?"
+        },
+        {
+            "role": "user",
+            "content": "KNN basically classifies data on basis of how close if it to K nearest neighbours. The distance calulation could be Manhattan Distance, Eucilidean Distance etc."
+        },
+        {
+            "role": "assistant",
+            "content": "Okay, Yashraj. Moving on to the next question. I can see that you've mentioned Internet of Things as your skill. Could you tell me more about it?"
+        },
+        {
+            "role": "user",
+            "content": "I did a course on Internet of Things in college actually."
+        },
+        {
+            "role": "assistant",
+            "content": "Could you elaborate more on this?"
+        },
+        {
+            "role": "user",
+            "content": "No, nothing more to add."
+        },
+        {
+            "role": "assistant",
+            "content": "Please stay focused on the interview."
+        },
+        {
+            "role": "user",
+            "content": "ok"
+        },
+        {
+            "role": "assistant",
+            "content": "Okay, Yashraj. What are the different components of IOT?"
+        },
+        {
+            "role": "user",
+            "content": "Can I get a hint?"
+        },
+        {
+            "role": "assistant",
+            "content": "Sure, Data processing is one component."
+        },
+        {
+            "role": "user",
+            "content": "Can I get a hint?"
+        },
+        {
+            "role": "assistant",
+            "content": "You have been provided with the maximum number of hints for this question."
+        },
+        {
+            "role": "user",
+            "content": "Okay."
+        },
+        {
+            "role": "assistant",
+            "content": "Please continue."
+        },
+        {
+            "role": "user",
+            "content": "Data processing and Sensor / Devices are components."
+        },
+        {
+            "role": "assistant",
+            "content": "Could you elaborate more?"
+        },
+        {
+            "role": "user",
+            "content": "Give me some time."
+        },
+        {
+            "role": "assistant",
+            "content": "Sure, take your time."
+        },
+        {
+            "role": "user",
+            "content": "Let's skip to the next question."
+        },
+        {
+            "role": "assistant",
+            "content": "Okay, Yashraj. This question is being skipped. Can you mention one advantage of IOT?"
+        },
+        {
+            "role": "user",
+            "content": "Sure, Ease of access is an advantage of IOT, as you just need a smart device connected to internet."
+        },
+        {
+            "role": "assistant",
+            "content": "Nice, Yashraj.Thank you for your time. You can click on exit to leave this interview. We will get back to you soon."
+        }
+    ]
+}
